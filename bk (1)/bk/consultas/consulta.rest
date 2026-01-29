@@ -1,0 +1,8 @@
+POST http://localhost:4000/api/usuario/token
+Content-Type: application/json
+{
+    "user":{
+        "email":"admin@dms.com",
+        "password":"123456"
+    }
+}
