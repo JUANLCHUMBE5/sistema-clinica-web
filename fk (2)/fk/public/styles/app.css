@@ -1,0 +1,42 @@
+.contenido{
+    width: 80%;
+    height: 80vh;
+    border: 1px solid #0d6efd;
+
+    margin: 10vh auto;
+    border-radius: 10px;
+
+    background-image: url('/images/background_1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    box-shadow: 0px 0px 100px #0d6efd;
+}
+
+.contenido .card{
+    margin-top: 50px;
+    margin-right: 10px;
+}
+
+.contenido .card-body{
+    color: #0d6efd;
+}
+
+.outlet{
+    width: 90%;
+    height: 90vh;
+    overflow-y: auto;
+    overflow-x: auto;
+    margin: auto;
+    margin-top: 10px;
+
+    box-shadow: 0px 0px 80px 5px #0d6efd;
+    border-radius: 10px;
+}
+
+.boton{
+    --bs-btn-padding-y:.25rem; 
+    --bs-btn-padding-x:.5rem; 
+    --bs-btn-font-size:.75rem;
+}
